@@ -1,0 +1,7 @@
+= simple_form_for(@session, html: {class: 'form-horizontal'}) do |f|
+  = f.input :date, label: "Date", input_html: {class: "form-control"}
+  = f.input :session, label: "Which instrument(s) did you practice?" , input_html: {class: "form-control"}
+  = f.input :mood, label: "How did it feel?", input_html: {class: "form-control"}
+  = f.input :duration, label: "Practice Session Duration", input_html: {class: "form-control"}
+  %br/
+  = f.button :submit
