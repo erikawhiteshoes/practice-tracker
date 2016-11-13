@@ -1,6 +1,7 @@
 class SessionsController < ApplicationController
   before_action :find_session, only: [:show, :edit, :update, :destroy]
   def index
+    @sessions = Session.all.order("created_at DESC")
   end
 
   def show
@@ -37,5 +38,4 @@ class SessionsController < ApplicationController
   def find_session
     @session = Session.find(params[:id])
   end
-
 end

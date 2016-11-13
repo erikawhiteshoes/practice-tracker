@@ -1,1 +1,4 @@
-%h1 This is the Sessions#Index placeholder
+%h1 Practice Sessions
+- @sessions.each do |session|
+  %h2= link_to session.date, session
+  %h3= session.session
