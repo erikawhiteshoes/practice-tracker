@@ -3,3 +3,7 @@
   %p= @session.session
   %p= @session.mood
   %p= @session.duration
+
+=  link_to "Back", root_path
+=  link_to "Edit", edit_session_path(@session)
+=  link_to "Delete", session_path(@session), method: :delete, data: { confirm: "Are you sure?" }

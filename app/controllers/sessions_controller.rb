@@ -24,9 +24,16 @@ class SessionsController < ApplicationController
   end
 
   def update
+    if @session.update(session_params)
+      redirect_to @session
+    else
+      render 'edit'
+    end
   end
 
   def destroy
+    @session.destroy
+    redirect_to root_path
   end
 
   private
