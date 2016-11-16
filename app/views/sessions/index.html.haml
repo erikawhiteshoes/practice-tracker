@@ -1,4 +1,4 @@
 %h1 Practice Sessions
 - @sessions.each do |session|
-  %h2= link_to session.date, session
+  %h2= link_to session.date.strftime("%I:%M %p, %a, %B %d, %Y"), session
   %h3= session.session
