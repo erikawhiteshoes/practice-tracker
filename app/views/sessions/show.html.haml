@@ -4,6 +4,13 @@
   %p= @session.mood
   %p= @session.duration
 
+#instruments
+  %h2 Instrument
+  = render @session.instruments
+
+  %h3 Add the instrument
+  = render "instruments/form"
+
 =  link_to "Back", root_path
 =  link_to "Edit", edit_session_path(@session)
 =  link_to "Delete", session_path(@session), method: :delete, data: { confirm: "Are you sure?" }

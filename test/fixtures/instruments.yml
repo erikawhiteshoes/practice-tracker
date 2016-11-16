@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  exercise: MyString
+  tempo: MyString
+  notes: MyString
+  session_id: 
+
+two:
+  name: MyString
+  exercise: MyString
+  tempo: MyString
+  notes: MyString
+  session_id: 
