@@ -1,28 +1,12 @@
-== README
+#Practice Tracker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I wanted to log my progress and keep the information in one place (and digital).
+This is a Ruby on Rails app using Rails 4, HAML and Bootstrap.
 
-Things you may want to cover:
+The user is able to register a practice session, see previous sessions sorted by date and listed under instrumental group.
+Then, they can add more specificity at the instrument level, for those who play more than one instrument, including exercises, etc.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Forthcoming
+* More styling
+* Sort options
+* Goal tracking by instrument
