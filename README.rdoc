@@ -1,4 +1,4 @@
-#Practice Tracker
+Practice Tracker
 
 I wanted to log my progress and keep the information in one place (and digital).
 This is a Ruby on Rails app using Rails 4, HAML and Bootstrap.
